@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.lista-compra_modulo-input {
+  margin: 40px 0 0 0;
+}
+
+.lista-compra_modulo-input > input {
+  height: 38px;
+  width: 250px;
+  margin: 0 20px 0 0;
+}
+
+.lista-compra_modulo-input > button {
+  height: 40px;
+}
+
+.lista-compra_Lista {
+  list-style: none;
+
+}
+
+.lista-compra_Lista > li {
+  list-style: none;
+  background: skyblue;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
